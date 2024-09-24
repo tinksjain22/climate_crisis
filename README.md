@@ -38,10 +38,11 @@ You can view the project files and visualizations directly from the repository. 
 
 ## Contributors
 - Babak Bahrani
+- Samuel Williamson
 - Saswata Chakraborty
 - Tinkle Jain
 - Tugce Terzioglu
-- Samuel Williamson
+
 
 
 
