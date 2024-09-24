@@ -1,0 +1,81 @@
+"Analyzing the Impact of Industrial Pollutants on the Regional Temperature Patterns"
+
+---------------------------------------------------------------------------------------------------------------------
+Group 5 Members (Alphabetical):
+Babak Bahrani, Saswata Chakraborty, Tinkle Jain, Tugce Terzioglu, Samuel Williamson
+---------------------------------------------------------------------------------------------------------------------
+
+Objective
+---------
+The main objective of this project is to explore historical temperature data and pollutant emissions, analyze trends over time, and predict future temperature changes driven by climate change across different regions. By focusing on CO2 emissions, we aim to understand their direct impact on regional temperature patterns and the broader global climate system.
+
+Key Research Questions
+-------------------------
+Global and Regional Emission Trends:
+
+- Question: How have global CO2 emissions changed over the last decades (1990-2018)? How do CO2 emissions vary by region, and which regions are contributing the most to global emissions?
+Analysis: Conduct a time series analysis to track global emission trends, focusing on yearly total global CO2 emissions. Also, aggregate emissions by region to explore geographic differences and identify major contributors to global emissions.
+
+Global and Regional Temperature Trends:
+
+- Question: How have global temperature changed over the last decades? How do temperature changes vary by region?
+
+Analysis: Conduct a time series analysis to track regional and global temperature, focusing on yearly total global CO2 emissions. Also, aggregate temperature by region to explore geographic differences and identify major contributors to global emissions.
+
+Temperature vs. Emissions
+
+- Question: How have global and regional temperature patterns changed in response to varying levels of CO2 emissions over the past century?
+
+Analysis: This section will explore the correlation between the historical rise in CO2 emissions and observed temperature anomalies at a regional level. The study will focus on identifying trends in temperature shifts relative to changes in emission levels. A statistical analysis will be conducted to determine the strength of the relationship between CO2 levels and temperature anomalies, accounting for regional climate factors and natural climate variability 
+
+Plot: Graphs will illustrate regional temperature anomalies over time, overlaid with CO2 emission trends. A scatter plot with temperature anomaly vs. CO2 emissions for different regions will also be used to visualize any linear or non-linear relationships.
+
+Steps to Execute the Project
+----------------------------
+
+1. Data Collection: Ensure the data covers a sufficient historical range to capture long-term trends.
+Data Sources 
+Temperature Data - Link
+Carbon Dioxide Emission Data - Link
+
+2. Data Cleaning and Preprocessing
+Libraries: pandas, numpy
+Tasks:
+Handle missing values and outliers to ensure data integrity.
+Convert date fields into proper formats for time series analysis.
+Aggregate the data by year or month as necessary for consistency between datasets.
+Normalize temperature data by region to account for geographic variation.
+
+3. Exploratory Data Analysis (EDA)
+
+ Libraries: matplotlib
+
+Tasks:
+
+Perform visual analyses of global temperature and CO2 emission trends.
+Identify correlations between temperature changes and pollutant levels.
+Create visualizations such as line plots, heatmaps, and histograms to show patterns in the data.
+
+4. Time Series Analysis / Predictive Modeling
+
+Libraries: SciPy.stats 
+Tasks:
+
+Decompose time series data into trend, seasonal, and residual components.
+Use statistical models to predict future temperature changes based on historical trends.
+Develop predictive models that account for CO2 emissions to forecast temperature patterns.
+
+5. Data Visualization 
+Libraries: matplotlib
+Tasks:
+
+Create clear and concise visualizations to present findings.
+Use geographic heatmaps to display regional temperature and emission trends.
+Visualize predictions of future temperature changes under various CO2 emission scenarios.
+
+6. Conclusions and Insights
+
+- Summarize the key findings from the analysis, highlighting significant trends and patterns.
+- Identify regions most affected by industrial pollutants and CO2 emissions.
+- Discuss the long-term implications of the findings for climate change, focusing on specific regions that are expected to experience the most drastic temperature changes.
+- Recommend potential policy measures to mitigate the impact of industrial pollutants on climate change.
