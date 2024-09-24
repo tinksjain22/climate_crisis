@@ -35,8 +35,8 @@ Steps to Execute the Project
 
 1. Data Collection: Ensure the data covers a sufficient historical range to capture long-term trends.
 Data Sources 
-Temperature Data - Link
-Carbon Dioxide Emission Data - Link
+Temperature Data - Link: https://www.kaggle.com/datasets/mdazizulkabirlovlu/all-countries-temperature-statistics-1970-2021
+Carbon Dioxide Emission Data - Link: https://www.kaggle.com/datasets/ankanhore545/carbon-dioxide-emissions-of-the-world
 
 2. Data Cleaning and Preprocessing
 Libraries: pandas, numpy
